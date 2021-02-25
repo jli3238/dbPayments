@@ -4,6 +4,7 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import ReactDOM from "react-dom";
 import Home from "./Home";
 import Stuff from "./Stuff";
 import Contact from "./Contact";
@@ -23,6 +24,14 @@ class Main extends Component {
             <Route path="/" component={Home}/>
             <Route path="/stuff" component={Stuff}/>
             <Route path="/contact" component={Contact}/>
+          </div>
+          <div className="content">
+          <iframe
+            allow="microphone;"
+            width="350"
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/0c993818-bd0c-4819-b5d3-fc4aadbb653b">
+          </iframe>
           </div>
         </div>
       </HashRouter>
