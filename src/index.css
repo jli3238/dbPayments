@@ -3,6 +3,18 @@ body {
     padding: 20px;
     margin: 0;
   }
+
+.container {
+  background-image: url('background.jpg');
+  background-size: cover;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
   h2, p, ul, li {
     font-family: sans-serif;
   }
@@ -44,9 +56,35 @@ body {
   }
   #mobileBox {
     background-color: #003049;
-    width: 600px;
-    height: 900px;
+    width: 900px;
+    height: 1200px;
     margin: 0 auto;
     border: 1px solid #ccc;
     text-align: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 200px;
+}
+
+.avatar div {
+  float: right;
+  margin-right: 12px;
+}
+
+.navbar img {
+  width: 180px;
+  height: 180px;
+  margin-right: 60px;
+  border-radius: 20px;
+}
+
+.avatar img {
+  width: 180px;
+  height: auto;
+  margin-top: 51px;
+  margin-right: 60px;
+  border-radius: 20px;
 }
