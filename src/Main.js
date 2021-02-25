@@ -4,7 +4,6 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import ReactDOM from "react-dom";
 import Home from "./Home";
 import Stuff from "./Stuff";
 import Contact from "./Contact";
@@ -26,7 +25,7 @@ class Main extends Component {
             <Route path="/contact" component={Contact}/>
           </div>
           <div className="content">
-          <iframe
+          <iframe title="debbaChatbot"
             allow="microphone;"
             width="350"
             height="430"
