@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
+const path = require('path')
 
 app.get('/', (req, res) => {
-  res.send('public\index');
+  //res.sendFile('public\index');
+  res.sendFile(path.join(__dirname, 'public', 'index.html'))
 });
 
 // Listen to the App Engine-specified port, or 8080 otherwise

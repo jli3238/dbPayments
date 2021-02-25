@@ -33,7 +33,7 @@ class Main extends Component {
     return (
       <HashRouter>
         <div className="container">
-          <div className="avatar"><div onClick={this.openNavbar}><img src={`${iconPath}faceid.jpg`} alt=""/></div></div> */}
+          <div className="avatar"><div onClick={this.openNavbar}><img src={`${iconPath}faceid.jpg`} alt=""/></div></div>
           {this.state.isNavbarOpen && 
             <div className="navbar">
               <div><img src={`${iconPath}screenreader.jpg`} alt=""/></div>
@@ -55,8 +55,7 @@ class Main extends Component {
             <Route path="/contact" component={Contact}/>
           </div>
           <div className="content">
-          <iframe
-            title="debba"
+          <iframe title="debbaChatbot"
             allow="microphone;"
             width="350"
             height="430"
