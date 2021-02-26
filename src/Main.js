@@ -34,6 +34,9 @@ class Main extends Component {
             <li><NavLink to="/ForexPricing">ForexPricing</NavLink></li>
             <li><NavLink to="/Delegations">Delegations</NavLink></li>
           </ul>
+          <div>
+            <p>Payments &gt; View Payments &gt; By Time</p>
+          </div>
           <div >
             <table class="styled-table">
               <thead>
@@ -42,6 +45,7 @@ class Main extends Component {
                           <th>This Month's Payments</th>
                           <th>Last Quarter Payments</th>
                           <th>This Quarter Payments</th>
+                          <th>Last Year Payments</th>
                           <th>Year to Date Payments</th>
                           <th>Total Successfull Payments</th>
                           <th>Total Failed Payments</th>
@@ -50,11 +54,12 @@ class Main extends Component {
               </thead>
               <tbody>
                     <tr>
-                        <td>$98979872.15</td>
-                        <td>$6487556.15</td>
-                        <td>$1265464.15</td>
+                        <td>$98979872.89</td>
+                        <td>$6487556.75</td>
+                        <td>$1265464.38</td>
                         <td>$5464646.15</td>
-                        <td>$9732165.15</td>
+                        <td>$9732165.65</td>
+                        <td>$558979872.65</td>
                         <td>1150550</td>
                         <td>1200</td>
                         <td><a href="#">click here</a></td>
@@ -65,6 +70,7 @@ class Main extends Component {
                           <td>$1265464.15</td>
                           <td>$5464646.15</td>
                           <td>$9732165.15</td>
+                          <td>$558979872.65</td>
                           <td>5648255</td>
                           <td>6555</td>
                           <td><a href="#">click here</a></td>
@@ -75,6 +81,7 @@ class Main extends Component {
                           <td>$9732165.15</td>
                           <td>$6487556.15</td>
                           <td>$98979872.15</td>
+                          <td>$558979872.65</td>
                           <td>5646465246</td>
                           <td>464646</td>
                           <td><a href="#">click here</a></td>
@@ -85,12 +92,84 @@ class Main extends Component {
                           <td>$1265464.15</td>
                           <td>$5464646.15</td>
                           <td>$9732165.15</td>
+                          <td>$558979872.65</td>
+                          <td>987987798</td>
+                          <td>6589</td>
+                          <td><a href="#">click here</a></td>
+                      </tr>
+                      <tr>
+                        <td>$98979872.89</td>
+                        <td>$6487556.75</td>
+                        <td>$1265464.38</td>
+                        <td>$5464646.15</td>
+                        <td>$9732165.65</td>
+                        <td>$558979872.65</td>
+                        <td>1150550</td>
+                        <td>1200</td>
+                        <td><a href="#">click here</a></td>
+                      </tr>
+                      <tr>
+                          <td>$98979872.15</td>
+                          <td>$6487556.15</td>
+                          <td>$1265464.15</td>
+                          <td>$5464646.15</td>
+                          <td>$9732165.15</td>
+                          <td>$558979872.65</td>
+                          <td>5648255</td>
+                          <td>6555</td>
+                          <td><a href="#">click here</a></td>
+                      </tr>
+                      <tr>
+                          <td>$1265464.15</td>
+                          <td>$5464646.15</td>
+                          <td>$9732165.15</td>
+                          <td>$6487556.15</td>
+                          <td>$98979872.15</td>
+                          <td>$558979872.65</td>
+                          <td>5646465246</td>
+                          <td>464646</td>
+                          <td><a href="#">click here</a></td>
+                      </tr>
+                      <tr>
+                          <td>$98979872.15</td>
+                          <td>$6487556.15</td>
+                          <td>$1265464.15</td>
+                          <td>$5464646.15</td>
+                          <td>$9732165.15</td>
+                          <td>$558979872.65</td>
+                          <td>987987798</td>
+                          <td>6589</td>
+                          <td><a href="#">click here</a></td>
+                      </tr>
+                      <tr>
+                          <td>$1265464.15</td>
+                          <td>$5464646.15</td>
+                          <td>$9732165.15</td>
+                          <td>$6487556.15</td>
+                          <td>$98979872.15</td>
+                          <td>$558979872.65</td>
+                          <td>5646465246</td>
+                          <td>464646</td>
+                          <td><a href="#">click here</a></td>
+                      </tr>
+                      <tr>
+                          <td>$98979872.15</td>
+                          <td>$6487556.15</td>
+                          <td>$1265464.15</td>
+                          <td>$5464646.15</td>
+                          <td>$9732165.15</td>
+                          <td>$558979872.65</td>
                           <td>987987798</td>
                           <td>6589</td>
                           <td><a href="#">click here</a></td>
                       </tr>
               </tbody>
           </table>
+        </div>
+        <div>
+          <button type="button" class="button button1">Show Successfull Payments</button>
+          <button type="button" class="button button1">Show Failed Payments</button>
+          <button type="button" class="button button1">Show Error Report</button>
         </div>
         </div>
         <div className="container">
