@@ -1,15 +1,9 @@
 import React, { Component } from "react";
 import {
-  Route,
-  NavLink,
   HashRouter
 } from "react-router-dom";
-// import ReactDOM from "react-dom";
-import Home from "./Home";
-import Contact from "./Contact";
 
 const iconPath = process.env.PUBLIC_URL + '/assets/icons/';
-const voicePath = process.env.PUBLIC_URL + '/assets/voice/';
  
 class Main extends Component {
   constructor(props) {
