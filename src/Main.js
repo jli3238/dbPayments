@@ -32,6 +32,17 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
+        <div>
+          <ul className="header">
+            <li><NavLink to="/">Payments</NavLink></li>
+            <li><NavLink to="/">Collections</NavLink></li>
+            <li><NavLink to="/">Trade Finance</NavLink></li>
+            <li><NavLink to="/">Forex Pricing</NavLink></li>
+            <li><NavLink to="/">Fund Transfer</NavLink></li>
+            <li><NavLink to="/">Delegations</NavLink></li>
+          </ul>
+          
+        </div>
         <div className="container">
           <div className="avatar"><div onClick={this.openNavbar}><img src={`${iconPath}AssebilityIcon.jpg`} alt=""/></div></div>
           {this.state.isNavbarOpen && 
@@ -52,7 +63,7 @@ class Main extends Component {
             </iframe>
           </div>
         </div>}
-        </div>
+        </div>        
       </HashRouter>
     );
   }
