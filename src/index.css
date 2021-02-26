@@ -81,6 +81,13 @@ body {
   border-radius: 20px;
 }
 
+.navbar div {
+  background-color: #22577A;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .avatar img {
   width: 60px;
   height: 60px;
@@ -89,6 +96,12 @@ body {
   border-radius: 20px;
 }
 
+.avatar div {
+  background-color: #22577A;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
 .styled-table {
   border-collapse: collapse;
   margin: 25px 0;
