@@ -67,41 +67,39 @@ body {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 
-.avatar div {
-  float: right;
-  margin-right: 12px;
-}
-
-.navbar img {
-  width: 60px;
+.navbar div {
   height: 60px;
+  width: 60px;
+  background-color: #22577A;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navbar svg {
+  width: 55px;
+  height: 55px;
   margin-right: 30px;
   border-radius: 20px;
 }
 
-.navbar div {
-  background-color: #22577A;
-  margin: 5px;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.avatar img {
-  width: 60px;
-  height: 60px;
-  margin-top: 12px;
-  margin-right: 190px;
-  border-radius: 20px;
+.avatar svg {
+  width: 25px;
+  height: 25px;
 }
 
 .avatar div {
-  background-color: #22577A;
-  margin: 5px;
-  padding: 5px;
-  border-radius: 5px;
+  margin-top: 27px;
+  float: right;
+  background-color: #004e98;
+  margin-top: 35px;
+  margin-right: 250px;
+  border-radius: 25px;
 }
+
 .styled-table {
   border-collapse: collapse;
   margin: 25px 0;

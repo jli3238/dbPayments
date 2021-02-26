@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import {
-  Route,
   NavLink,
   HashRouter
 } from "react-router-dom";
@@ -28,7 +27,6 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <h1>Simple SPA</h1>
           <ul className="header">
             <li><NavLink to="/Payments">Payments</NavLink></li>
             <li><NavLink to="/Collections">Collections</NavLink></li>
