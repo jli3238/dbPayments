@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import {
   HashRouter
 } from "react-router-dom";
-
-const iconPath = process.env.PUBLIC_URL + '/assets/icons/';
+import { Accessibility, VisibilityOff, Hearing, RecordVoiceOver, LocalLibrary } from '@material-ui/icons';
  
 class Main extends Component {
   constructor(props) {
@@ -32,13 +31,13 @@ class Main extends Component {
           </ul>
         </div>
         <div className="container">
-          <div className="avatar"><div onClick={this.openNavbar}><img src={`${iconPath}AssebilityIcon.jpg`} alt=""/></div></div>
+          <div className="avatar" onClick={this.openNavbar}><div><Accessibility style={{ color: "white" }}/></div></div>
           {this.state.isNavbarOpen && 
             <div className="navbar">
-              <div><img src={`${iconPath}screenreader.jpg`} alt=""/></div>
-              <div><img src={`${iconPath}eye.jpg`} alt=""/></div>
-              <div><img src={`${iconPath}ear.jpg`} onClick={this.openDebba} alt=""/></div>
-              <div><img src={`${iconPath}braille.jpg`} alt=""/></div>
+              <div><VisibilityOff style={{ color: "white" }}/></div>
+              <div><Hearing style={{ color: "white" }}/></div> 
+              <div onClick={this.openDebba} ><RecordVoiceOver style={{ color: "white" }}/></div>
+              <div><LocalLibrary style={{ color: "white" }}/></div>
             </div>
           }
         {this.state.isOpen && <div id="mobileBox">

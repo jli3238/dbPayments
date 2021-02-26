@@ -81,10 +81,24 @@ body {
   border-radius: 20px;
 }
 
+.navbar div {
+  background-color: #22577A;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 .avatar img {
   width: 60px;
   height: 60px;
   margin-top: 12px;
   margin-right: 190px;
   border-radius: 20px;
+}
+
+.avatar div {
+  background-color: #22577A;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
 }
