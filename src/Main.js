@@ -51,7 +51,7 @@ class Main extends Component {
             </iframe>
           </div>
         </div>}
-        </div>        
+        </div>
       </HashRouter>
     );
   }
