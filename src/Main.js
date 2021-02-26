@@ -43,12 +43,11 @@ class Main extends Component {
             </div>
           }
         {this.state.isOpen && <div id="mobileBox">
-          <h1>Debba</h1>
           <div className="content">
             <iframe title="debbaChatbot"
               allow="microphone;autoplay;"
-              width="405px"
-              height="400px"
+              width="310px"
+              height="505px"
               src="https://console.dialogflow.com/api-client/demo/embedded/0c993818-bd0c-4819-b5d3-fc4aadbb653b">
             </iframe>
           </div>
