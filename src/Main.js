@@ -28,14 +28,8 @@ class Main extends Component {
       <HashRouter>
         <div>
           <ul className="header">
-            <li><NavLink to="/">Payments</NavLink></li>
-            <li><NavLink to="/">Collections</NavLink></li>
-            <li><NavLink to="/">Trade Finance</NavLink></li>
-            <li><NavLink to="/">Forex Pricing</NavLink></li>
-            <li><NavLink to="/">Fund Transfer</NavLink></li>
-            <li><NavLink to="/">Delegations</NavLink></li>
+            <li>Payments</li>
           </ul>
-          
         </div>
         <div className="container">
           <div className="avatar"><div onClick={this.openNavbar}><img src={`${iconPath}AssebilityIcon.jpg`} alt=""/></div></div>
