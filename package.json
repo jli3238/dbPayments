@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.7.3",
     "add": "^2.0.6",
     "express": "^4.17.1",
+    "firebase": "^9.0.2",
     "firebase-tools": "^9.18.0",
     "global": "^4.4.0",
     "react": "^17.0.1",

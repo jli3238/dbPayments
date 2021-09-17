@@ -62,7 +62,7 @@ class Main extends Component {
                         <td>$558979872.65</td>
                         <td>1150550</td>
                         <td>1200</td>
-                        <td><a href="#">click here</a></td>
+                        <td><a href="google.com">click here</a></td>
                       </tr>
                       <tr>
                           <td>$98979872.15</td>
@@ -73,7 +73,7 @@ class Main extends Component {
                           <td>$558979872.65</td>
                           <td>5648255</td>
                           <td>6555</td>
-                          <td><a href="#">click here</a></td>
+                          <td><a href="google.com">click here</a></td>
                       </tr>
                       <tr class="active-row">
                           <td>$1265464.15</td>
@@ -84,7 +84,7 @@ class Main extends Component {
                           <td>$558979872.65</td>
                           <td>5646465246</td>
                           <td>464646</td>
-                          <td><a href="#">click here</a></td>
+                          <td><a href="google.com">click here</a></td>
                       </tr>
                       <tr>
                           <td>$98979872.15</td>
@@ -95,7 +95,7 @@ class Main extends Component {
                           <td>$558979872.65</td>
                           <td>987987798</td>
                           <td>6589</td>
-                          <td><a href="#">click here</a></td>
+                          <td><a href="google.com">click here</a></td>
                       </tr>
                       <tr>
                         <td>$98979872.89</td>
@@ -106,7 +106,7 @@ class Main extends Component {
                         <td>$558979872.65</td>
                         <td>1150550</td>
                         <td>1200</td>
-                        <td><a href="#">click here</a></td>
+                        <td><a href="google.com">click here</a></td>
                       </tr>
                       <tr>
                           <td>$98979872.15</td>
@@ -117,7 +117,7 @@ class Main extends Component {
                           <td>$558979872.65</td>
                           <td>5648255</td>
                           <td>6555</td>
-                          <td><a href="#">click here</a></td>
+                          <td><a href="google.com">click here</a></td>
                       </tr>
                       <tr>
                           <td>$1265464.15</td>
@@ -128,7 +128,7 @@ class Main extends Component {
                           <td>$558979872.65</td>
                           <td>5646465246</td>
                           <td>464646</td>
-                          <td><a href="#">click here</a></td>
+                          <td><a href="google.com">click here</a></td>
                       </tr>
                       <tr>
                           <td>$98979872.15</td>
@@ -139,7 +139,7 @@ class Main extends Component {
                           <td>$558979872.65</td>
                           <td>987987798</td>
                           <td>6589</td>
-                          <td><a href="#">click here</a></td>
+                          <td><a href="google.com">click here</a></td>
                       </tr>
                       <tr>
                           <td>$1265464.15</td>
@@ -150,7 +150,7 @@ class Main extends Component {
                           <td>$558979872.65</td>
                           <td>5646465246</td>
                           <td>464646</td>
-                          <td><a href="#">click here</a></td>
+                          <td><a href="google.com">click here</a></td>
                       </tr>
                       <tr>
                           <td>$98979872.15</td>
@@ -161,7 +161,7 @@ class Main extends Component {
                           <td>$558979872.65</td>
                           <td>987987798</td>
                           <td>6589</td>
-                          <td><a href="#">click here</a></td>
+                          <td><a href="google.com">click here</a></td>
                       </tr>
               </tbody>
           </table>
